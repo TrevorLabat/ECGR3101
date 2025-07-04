@@ -1,0 +1,194 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "BlinkLED_MSP-EXP430G2ET (1)",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "BlinkLED_MSP-EXP430G2ET",
+                "resourceId": "/BlinkLED_MSP-EXP430G2ET/targetConfigs/MSP430G2553.ccxml"
+            }
+        },
+        {
+            "name": "msp430g2xx3_1.c (1)",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "msp430g2xx3_1.c",
+                "resourceId": "/msp430g2xx3_1.c/targetConfigs/MSP430G2553.ccxml"
+            }
+        },
+        {
+            "name": "msp430g2xx3_1.c (2)",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "msp430g2xx3_1.c",
+                "resourceId": "/msp430g2xx3_1.c"
+            }
+        },
+        {
+            "name": "BlinkLED_MSP-EXP430G2ET (2)",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "BlinkLED_MSP-EXP430G2ET",
+                "resourceId": "/BlinkLED_MSP-EXP430G2ET/main.c"
+            }
+        },
+        {
+            "name": "BUTTON_LED_POINTER",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "BUTTON_LED_POINTER",
+                "resourceId": "/BUTTON_LED_POINTER/msp430g2xx3_1.c"
+            }
+        },
+        {
+            "name": "BUTTON_LED_DEFINE_MACRO",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "BUTTON_LED_DEFINE_MACRO",
+                "resourceId": "/BUTTON_LED_DEFINE_MACRO/msp430g2xx3_1.c"
+            }
+        },
+        {
+            "name": "BUTTON_LED_LIBRARY_REGISTER_MACRO",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "BUTTON_LED_LIBRARY_REGISTER_MACRO",
+                "resourceId": "/BUTTON_LED_LIBRARY_REGISTER_MACRO/msp430g2xx3_1.c"
+            }
+        },
+        {
+            "name": "BUTTON_LED_POINTER (1)",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "BUTTON_LED_POINTER",
+                "resourceId": "/BUTTON_LED_POINTER/targetConfigs"
+            }
+        },
+        {
+            "name": "BUTTON_LED_DEFINE_MACRO (1)",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "BUTTON_LED_DEFINE_MACRO",
+                "resourceId": "/BUTTON_LED_DEFINE_MACRO"
+            }
+        },
+        {
+            "name": "FUNCTION_EXAMPLE",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "FUNCTION_EXAMPLE",
+                "resourceId": "/FUNCTION_EXAMPLE/function.c"
+            }
+        },
+        {
+            "name": "STOP_LIGHT",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "STOP_LIGHT",
+                "resourceId": "/STOP_LIGHT/msp430g2xx3_1.c"
+            }
+        },
+        {
+            "name": "STOP_LIGHT (1)",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "STOP_LIGHT",
+                "resourceId": "/STOP_LIGHT"
+            }
+        },
+        {
+            "name": "ENUM&FUNCTIONALIZED_STOP_LIGHT",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "ENUM&FUNCTIONALIZED_STOP_LIGHT",
+                "resourceId": "/ENUM&FUNCTIONALIZED_STOP_LIGHT/msp430g2xx3_1.c"
+            }
+        },
+        {
+            "name": "ENUM_FUNCTIONALIZED_STOP_LIGHT",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "ENUM_FUNCTIONALIZED_STOP_LIGHT",
+                "resourceId": "/ENUM_FUNCTIONALIZED_STOP_LIGHT/msp430g2xx3_1.c"
+            }
+        },
+        {
+            "name": "CLK_BLINK",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "CLK_BLINK",
+                "resourceId": "/CLK_BLINK/msp430g2xx3_1.c"
+            }
+        },
+        {
+            "name": "CROSSWALK_INTERRUPT_FUNCTIONALIZED_STOP_LIGHT",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "CROSSWALK_INTERRUPT_FUNCTIONALIZED_STOP_LIGHT",
+                "resourceId": "/CROSSWALK_INTERRUPT_FUNCTIONALIZED_STOP_LIGHT/msp430g2xx3_1.c"
+            }
+        },
+        {
+            "name": "CROSSWALK_ENUM_FUNCTIONALIZED_STOP_LIGHT (1)",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "CROSSWALK_ENUM_FUNCTIONALIZED_STOP_LIGHT",
+                "resourceId": "/CROSSWALK_ENUM_FUNCTIONALIZED_STOP_LIGHT"
+            }
+        },
+        {
+            "name": "CROSSWALK_ENUM_FUNCTIONALIZED_STOP_LIGHT (2)",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "CROSSWALK_ENUM_FUNCTIONALIZED_STOP_LIGHT",
+                "resourceId": "/CROSSWALK_ENUM_FUNCTIONALIZED_STOP_LIGHT/msp430g2xx3_1.c"
+            }
+        },
+        {
+            "name": "Lab_4",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Lab_4",
+                "resourceId": "/Lab_4/msp430g2xx3_1.c"
+            }
+        },
+        {
+            "name": "FUNCTION_EXAMPLE (1)",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "FUNCTION_EXAMPLE",
+                "resourceId": "/FUNCTION_EXAMPLE"
+            }
+        },
+        {
+            "name": "test",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "test",
+                "resourceId": "/test/msp430g2xx3_1.c"
+            }
+        }
+    ]
+}
