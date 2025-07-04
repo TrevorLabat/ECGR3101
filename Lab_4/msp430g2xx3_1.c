@@ -96,7 +96,7 @@ void init(){
     __enable_interrupt();
 }
 
-static inline void setLed(uint8_t ledNum){ //should inline be used here?
+static inline void setLed(uint8_t ledNum){ 
     switch(ledNum){
         case 1:
             ORANGE_1_5_LED_OUT_REG |= ORANGE_1_LED_PIN;
