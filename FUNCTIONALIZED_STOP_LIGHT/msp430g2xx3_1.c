@@ -21,9 +21,9 @@ static inline void setGreenLed(bool enable);
 static inline void setYellowLed(bool enable);
 static inline void setRedLed(bool enable);
 
-uint8_t runGreenState(uint16_t* seconds);
-uint8_t runYellowState(uint16_t* seconds);
-uint8_t runRedState(uint16_t* seconds);
+uint8_t runGreenState(volatile uint16_t* seconds);
+uint8_t runYellowState(volatile uint16_t* seconds);
+uint8_t runRedState(volatile uint16_t* seconds);
 
 int main(void) {
     volatile uint16_t seconds = 0;
@@ -53,7 +53,7 @@ int main(void) {
     }
 }
 
-uint8_t runGreenState(uint16_t* seconds){
+uint8_t runGreenState(volatile uint16_t* seconds){
     uint8_t nextState = 0;
     setRedLed(false);
     setGreenLed(true);
@@ -66,7 +66,7 @@ uint8_t runGreenState(uint16_t* seconds){
     return nextState;
 }
 
-uint8_t runYellowState(uint16_t* seconds){
+uint8_t runYellowState(volatile uint16_t* seconds){
     uint8_t nextState = 1;
     setRedLed(false);
     setGreenLed(false);
@@ -79,7 +79,7 @@ uint8_t runYellowState(uint16_t* seconds){
     return nextState;
 }
 
-uint8_t runRedState(uint16_t* seconds){
+uint8_t runRedState(volatile uint16_t* seconds){
     uint8_t nextState = 2;
     setRedLed(true);
     setGreenLed(false);

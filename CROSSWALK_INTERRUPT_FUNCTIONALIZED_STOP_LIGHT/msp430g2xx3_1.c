@@ -33,7 +33,7 @@ typedef enum{
 typedef struct{
     bool pressed;
     uint16_t seconds;
-} inputs_t;
+} volatile inputs_t;
 
 bool globalButtonFlag = false;
 

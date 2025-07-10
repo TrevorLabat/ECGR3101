@@ -5,10 +5,6 @@ static inline void setGreenLed(bool enable){
     P1OUT = enable ? P1OUT | BIT0 : P1OUT & ~BIT0;
 }
 
-static inline bool isButtonPressed(){
-    return (P1IN & BIT3) == 0x00;
-}
-
 void initClocks(){
     BCSCTL3 = LFXT1S_2;         // Configure VLO clock as LFXT1CLK
     IFG1 &= ~OFIFG;             // Clear fault flag
